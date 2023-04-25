@@ -67,11 +67,11 @@
 				DD3E92E629F6A34F00B72316 /* ViewController.swift */,
 				DD70DBDA29F6ABCE005733FF /* SecondScreenViewController.swift */,
 				DD3E92F629F6A75900B72316 /* Automovil.swift */,
+				DD70DBDC29F6BF95005733FF /* AutoMazda.swift */,
 				DD3E92E829F6A34F00B72316 /* Main.storyboard */,
 				DD3E92EB29F6A35000B72316 /* Assets.xcassets */,
 				DD3E92ED29F6A35000B72316 /* LaunchScreen.storyboard */,
 				DD3E92F029F6A35000B72316 /* Info.plist */,
-				DD70DBDC29F6BF95005733FF /* AutoMazda.swift */,
 			);
 			path = AppAutos;
 			sourceTree = "<group>";

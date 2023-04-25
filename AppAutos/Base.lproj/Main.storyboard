@@ -154,8 +154,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="Xfo-U1-hMx"/>
                     <connections>
-                        <outlet property="InfoLabel" destination="sD5-nR-AFP" id="e2j-qy-ssQ"/>
                         <outlet property="autoImageView" destination="DJ0-XG-kmu" id="uHW-wk-49J"/>
+                        <outlet property="infoLabel" destination="sD5-nR-AFP" id="0lY-jn-5RA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qZJ-FQ-wk2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

@@ -25,6 +25,7 @@ class ViewController: UIViewController {
     
     @IBAction func btnAutoSencillo(_ sender: Any) {
         tipoAuto = 0
+        // Activa el segue a la 2ª pantalla
         performSegue(withIdentifier: idSegueSecondScreen, sender: self)
     }
     
@@ -35,7 +36,11 @@ class ViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Creando un objeto de la segunda pantalla
-        if let destino = segue.destination as? SecondScreenViewController {
+        // Pudiendo así acceder a sus propiedades y métodos (secondScreenVC)
+        // Destino = objeto de la 2ª pantalla
+        if let destino = segue.destination as?
+            
+            SecondScreenViewController {
             destino.tipoAuto = self.tipoAuto
         }
     }

@@ -12,14 +12,14 @@ class Automovil {
     // Variables y constantes
     var color = "neutro"
     var numLlantas = 4
-    var precio = 0
-    let acelerando = "Acelerando"
+    var precio = 5000
+    let acelerando = "Aceleración OK"
     
     // Funciones
     func encender() -> Bool {
         return true
     }
-
+    
     func apagar() -> Bool {
         return false
     }
